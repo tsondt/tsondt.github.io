@@ -1,0 +1,44 @@
+title: tsondt
+url: https://tsondt.com
+baseurl:
+author:
+  name: tsondt
+  url: https://tsondt.com
+
+sass:
+  sass_dir: assets/css
+  style: compressed
+
+exclude:
+  - "*.sh"
+  - "Dockerfile"
+  - "Gemfile*"
+  - "LICENSE"
+  - "README.md"
+  - "CNAME"
+  - "Makefile"
+
+plugins:
+  - jekyll-sitemap
+
+my_name: Son Dinh (tsondt)
+my_title: infosec dude
+my_avatar: "/assets/images/avatar.jpg"
+# "https://avatars1.githubusercontent.com/u/3180442"
+
+# ga_id: UA-103691933-1
+fathom_site_id: JXYSE
+
+github_url: https://github.com/tsondt
+gitlab_url: https://gitlab.com/tsondt
+linkedin_url: https://linkedin.com/in/tsondt
+twitter_url: https://twitter.com/tsondt
+blog_url: https://blog.tsondt.com
+wiki_url: https://wiki.tsondt.com
+oscp_url: https://oscp.tsondt.com
+osce_url: https://osce.tsondt.com
+photos_url: https://photos.tsondt.com
+
+cv:
+  title: Tran Thai Son Dinh
+  url: https://tsondt.com/cv
