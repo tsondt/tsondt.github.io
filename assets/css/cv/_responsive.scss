@@ -1,0 +1,157 @@
+@media print {
+  .print {
+    display: block !important;
+  }
+
+  .noprint {
+    display: none;
+  }
+
+  .hidden {
+    display: none !important;
+  }
+
+  .pb {
+    page-break-after: always;
+  }
+
+  body {
+    font-size: 12pt !important;
+    padding: 0 !important;
+    background: white !important;
+  }
+
+  .wrapper {
+    margin: 0 !important;
+    padding: 0 !important;
+    box-shadow: none !important;
+  }
+
+  .main-wrapper {
+    margin: 0 !important;
+    padding: 0 !important;
+
+    .header {
+      margin-top: 10px !important;
+      .contact > ul > li {
+        display: block !important;
+      }
+      .title {
+        h1,
+        h3 {
+          margin: -5px 0 !important;
+        }
+      }
+    }
+
+    ul > li {
+      margin-bottom: 0 !important;
+      line-height: 1.15rem !important;
+    }
+
+    table .company {
+      margin-top: -2px !important;
+    }
+
+    table,
+    tr,
+    td {
+      margin-top: 1px !important;
+      margin-bottom: -2px !important;
+      padding: 0 !important;
+    }
+
+    h2,
+    h4,
+    h5,
+    h6 {
+      margin-top: 0 !important;
+      margin-bottom: -2px !important;
+    }
+
+    h2 {
+      font-size: 1.15rem;
+    }
+
+    h3 {
+      font-size: 1.15rem;
+      margin-top: 0 !important;
+      margin-bottom: -10px !important;
+    }
+
+    p.nospace {
+      line-height: 20px !important;
+    }
+
+    table.skills {
+      tr > td:first-child {
+        font-size: 1.1rem !important;
+      }
+      tr > td {
+        margin-top: -5px !important;
+        line-height: 1.3rem;
+      }
+    }
+
+    table.other-work {
+      line-height: 20px !important;
+    }
+
+    table.awards.print {
+      display: table !important;
+      line-height: 20px !important;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  body {
+    margin: 0 !important;
+    padding: 5px !important;
+    // font-size: 14px !important;
+  }
+
+  .wrapper {
+    box-shadow: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .main-wrapper {
+    margin: 0 !important;
+    padding: 0 !important;
+
+    .header {
+      .contact {
+        width: 100% !important;
+
+        ul > li {
+          margin: auto;
+        }
+      }
+
+      .title {
+        h1 {
+          font-size: 2.5em !important;
+          margin-top: -20px !important;
+        }
+        h3 {
+          font-size: 1.5em !important;
+          margin-top: -10px !important;
+        }
+      }
+    }
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  body {
+    margin: 0 !important;
+    padding: 5px !important;
+  }
+
+  .main-wrapper,
+  .wrapper {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+}

@@ -1,0 +1,30 @@
+<head>
+    <title>{{site.cv.title}}</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Curriculum Vitae">
+    <meta property='og:title' content="{{site.cv.title}}">
+    <meta property='og:image' content="{{site.url}}/assets/images/cv.png">
+    <meta property='og:description' content="Curriculum Vitae">
+    <meta property='og:url' content="{{site.url}}/cv">
+
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/cv.css">
+    {% if jekyll.environment != "development" %}
+    {% if site.fathom_site_id %}
+    <script>
+        (function(f, a, t, h, o, m){
+            a[h]=a[h]||function(){
+                (a[h].q=a[h].q||[]).push(arguments)
+            };
+            o=f.createElement('script'),
+            m=f.getElementsByTagName('script')[0];
+            o.async=1; o.src=t; o.id='fathom-script';
+            m.parentNode.insertBefore(o,m)
+        })(document, window, '//fathom-analytics-kwyh.onrender.com/tracker.js', 'fathom');
+        fathom('set', 'siteId', '{{ site.fathom_site_id }}');
+        fathom('trackPageview');
+    </script>
+    {% endif %}
+    {% endif %}
+</head>
