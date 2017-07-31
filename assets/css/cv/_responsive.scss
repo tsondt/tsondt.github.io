@@ -1,0 +1,131 @@
+@media print {
+  .print {
+    display: block !important;
+  }
+
+  .noprint {
+    display: none;
+  }
+
+  body {
+    font-size: 12pt !important;
+    padding: 0 !important;
+    background: white !important;
+  }
+
+  .wrapper {
+    margin: 0 !important;
+    padding: 0 !important;
+    box-shadow: none !important;
+  }
+
+  .main-wrapper {
+    margin: 0 !important;
+    padding: 0 !important;
+
+    .header {
+      margin-top: 10px !important;
+      .contact > ul > li {
+        display: block !important;
+      }
+      .title {
+        h1,
+        h3 {
+          margin: -15px 0 !important;
+        }
+      }
+    }
+
+    ul > li {
+      margin-bottom: 0 !important;
+      line-height: 18px !important;
+    }
+
+    table,
+    tr,
+    td {
+      margin-top: 0 !important;
+      margin-bottom: -5px !important;
+      padding: 0 !important;
+    }
+
+    h2,
+    h4,
+    h5,
+    h6 {
+      margin-top: 0 !important;
+      margin-bottom: -4px !important;
+    }
+
+    h3 {
+      font-size: 1.15em;
+      margin-top: 0 !important;
+      margin-bottom: -8px !important;
+    }
+
+    p.nospace {
+      line-height: 20px !important;
+    }
+
+    table.other-work {
+      line-height: 20px !important;
+    }
+
+    table.awards.print {
+      display: table !important;
+      line-height: 20px !important;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  body {
+    margin: 0 !important;
+    padding: 5px !important;
+    // font-size: 14px !important;
+  }
+
+  .wrapper {
+    box-shadow: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .main-wrapper {
+    margin: 0 !important;
+    padding: 0 !important;
+
+    .header {
+      .contact {
+        width: 100% !important;
+
+        ul > li {
+          margin: auto;
+        }
+      }
+
+      .title {
+        h1 {
+          font-size: 2.5em !important;
+          margin-top: -20px !important;
+        }
+        h3 {
+          font-size: 1.5em !important;
+          margin-top: -10px !important;
+        }
+      }
+    }
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  body {
+    margin: 0 !important;
+    padding: 5px !important;
+  }
+
+  .main-wrapper,
+  .wrapper {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+}
