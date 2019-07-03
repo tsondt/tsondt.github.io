@@ -4,7 +4,7 @@ layout: cv
 ## QUALIFICATIONS
 ---
 * **Accomplished Information Security Professional** with over 8 years of experience
-* **Senior Software Engineer** with over 17 years of experience in programming and building software
+* **Senior Software Engineer** with over 17 years of experience in software development
 * Experience working in **fast-paced, multi-geo** as well as **small, focused, startup-like** environments
 * **Offensive Security Certified Professional (OSCP) Certification**
 * **Master of Applied Science in Information Systems Security**
@@ -15,22 +15,24 @@ layout: cv
 
 {:.skills}
 | --- | --- |
-| **Information Security** | Security review of software system design/architecture/code, threat modeling, black/white-box testing of native/web/mobile apps, vulnerability assessment |
+| **Information Security** | Information security strategy for SMBs |
+|  | Security testing of native/mobile/web apps & APIs, vulnerability assessment |
+|  | Security design & review of software system architecture & code, threat modeling |
+|  | Security review of software systems in FinTech |
+|  | Cryptography, AuthN/AuthZ protocols & implementations |
+|  | OWASP (Top 10/Testing Guides/Code Review Guide/ASVS/SAMM) |
 |  | Secure Development Lifecycle (SDL) |
-|  | Cryptography, AuthN/AuthZ protocols |
-|  | Security design of system integrations in FinTech |
-|  | OWASP (Top Ten/Testing Guide/Code Review Guide/ASVS) |
 |  | MITRE (CVE/CVSS/CWE/CAPEC/ATT&CK) |
 |  | Network security protocols & implementations |
-|  | Cyber threat analysis using machine learning: phishing & spam campaigns, passive DNS, scanning activities, DDoS attacks, malware & botnet |
-| **Software Engineering** | C/C++, Visual Basic/ASP/C#.NET, Java, Go, Assembly, PASCAL, Objective-C |
+|  | Analysis of cyber threats using machine learning |
+| **Software Engineering** | DevSecOps & CI/CD tools for operating infrastructure on AWS & GCP |
 |  | Python, Ruby, PHP, JavaScript/TypeScript, HTML, CSS |
-|  | Bash (Linux, macOS), PowerShell (Windows) |
-|  | DevOps/DevSecOps & CI/CD tools for maintaining infrastructure on AWS & GCP |
+|  | Bash & PowerShell |
+|  | Go, C/C++, Visual Basic/ASP/C#.NET, Java, Objective-C, PASCAL, Assembly |
 
 ## PROFESSIONAL EXPERIENCE
 ---
-### Security Engineer
+### Information Security Lead
 
 {:.company}
 | Koho Financial | November 2017 - Now |
@@ -40,22 +42,22 @@ layout: cv
 * Product & Application Security:
 	* Collaborate with other teams to strengthen the security posture of the company.
 	* Perform secure code review in a variety of languages and platforms and contribute security-sensitive code.
-	* Conduct periodic security tests for product releases and system integrations.
-	* Ensure the success of periodic third-party risk assessments and external penetration tests.
+	* Conduct security reviews and tests for product releases and system integrations.
+	* Ensure the success of periodic external penetration tests and third-party risk assessments.
 * Cloud Infrastructure Security:
-	* *Perform intensive, continuous security review and testing* of the cloud infrastructure.
+	* Perform intensive, continuous security review and testing of the cloud infrastructure.
 	* Design and implement many building blocks to strengthen the infrastructure security.
 	* Provide support for troubleshooting and optimizing current service platforms.
 	* Be the first responder when a security event occurs.
 * IT Security:
-	* *Establish a security baseline for the whole company* in terms of authN/authZ, security policies, sensitive data handling, etc.
-	* Stand up the IT infrastructure and develop security policies from scratch.
+	* Establish a security baseline for the whole company in terms of authN/authZ, security policies, sensitive data handling, etc.
+	* Stand up the IT infrastructure and develop information security policies from scratch.
 	* Raise the security awareness by providing information security trainings and workshops.
 
 ### Software Security Engineer
 
 {:.company}
-| Intel Security, Intel Corporation (McAfee since April 2017) | January 2015 - October 2017 |
+| Intel Security, Intel Corporation (McAfee since April 2017) | January 2015 - October 2017 (2 years 10 months) |
 
 * As a member of the Product Security Team, *enabled frequent public releases* (on multiple platforms: Windows, macOS, Android, iOS) *and backend deployments* without any security defects by *performing security review and validation* on every release cycle.
 * *Served as an advocate for security* within development teams, *providing* security guidance and best practices.
@@ -72,12 +74,12 @@ layout: cv
 {:.company}
 | National Cyber-Forensics and Training Alliance (NCFTA) Canada | January 2011 - June 2014 (3 years 6 months) |
 
-* *Researched*, *designed*, *implemented* and *maintained* software systems that manipulate hundreds of GB of data per day.
+* *Researched*, *designed*, *implemented* and *maintained* software systems that *manipulate hundreds of GB of data per day*.
 * *Participated* in many projects in collaboration with different organizations:
   * Malware Analysis: *Installed* and *maintained* a dynamic malware analysis environment using GFI Sandbox. *Analyzed* malware reports by applying machine learning techniques.
   * Darknet Traffic Analysis: *Researched*, *designed*, *implemented* and *maintained* a phishing attack detection and assessment system which extracts phishing URLs from online spam data feeds. *Designed*, *implemented* and *maintained* an online darknet traffic analysis system which extracts global scanning activities and DDoS attacks from online darknet traces.
   * Spam Campaign Analysis: *Researched*, *designed* and *implemented* a [spam campaign detection, analysis and investigation software framework](http://publications.gc.ca/site/eng/9.818785/publication.html) which is utilized to enforce the Canada’s Anti-Spam Legislation.
-  * Cyber Threat Intelligence Databases: *Designed*, *implemented* and *maintained* different databases of cyber threat intelligence (passive DNS, scanning activities, DDoS & phishing attacks) which *process hundreds of GB of data per day*.
+  * Cyber Threat Intelligence Databases: *Designed*, *implemented* and *maintained* different databases of cyber threat intelligence (passive DNS, scanning activities, DDoS & phishing attacks)
 
 ### Software Development Engineer
 
