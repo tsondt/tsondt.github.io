@@ -7,6 +7,7 @@ layout: cv
 * **Senior Software Engineer** with over 17 years of experience in software development
 * Experience working in **fast-paced, multi-geo** as well as **small, focused, startup-like** environments
 * **Offensive Security Certified Professional (OSCP) Certification**
+* **AWS Certified Security - Specialty**
 * **Master of Applied Science in Information Systems Security**
 * Extensive knowledge of computer hardware/software/networks and electronics/telecommunications
 
